@@ -1,47 +1,113 @@
-# ⭐Plant-Disease-Detection
-* Plant Disease is necessary for every farmer so we are created Plant disease detection using Deep learning. In which we are using convolutional Neural Network for classifying Leaf images into 39 Different Categories. The Convolutional Neural Code build in Pytorch Framework. For Training we are using Plant village dataset. Dataset Link is in My Blog Section.
+# AI Plant Disease Detection System
 
-## ⭐Run Project in your Machine
-* You must have **Python3.8** installed in your machine.
-* Create a Python Virtual Environment & Activate Virtual Environment [Link](https://docs.python.org/3/tutorial/venv.html)
-* Install all the dependencies using below command
-    `pip install -r requirements.txt`
-* Go to the `Flask Deployed App` folder.
-* Download the pre-trained model file `plant_disease_model_1.pt` from [here](https://drive.google.com/drive/folders/1ewJWAiduGuld_9oGSrTuLumg9y62qS6A?usp=share_link)
-* Add the downloaded file in `Flask Deployed App` folder.
-* Run the Flask app using below command `python3 app.py`
-* You can also use downloaded file in `Model` Section and play with it using Jupyter Notebook.
+![Python](https://img.shields.io/badge/Python-DeepLearning-blue)
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-red)
+![Flask](https://img.shields.io/badge/Backend-Flask-green)
+![Computer Vision](https://img.shields.io/badge/AI-ComputerVision-orange)
 
-## ⭐Contribution ( Open Source )
-* This Project is now open source.
-* All the developers who are intrested they can contribute in this project.
-* Yo can make UI better , make Deep learning model more powerful , add informative markdown file in section...
-* If you will change Deep learning make sure you upload updated markdown file (.md) , .pdf and .ipynb in particular section.
-* Make sure your code is working. It will not have any type or error.
-* You have to fork this project then make a pull request after you testing will successful.
-* How to make pull request : https://opensource.com/article/19/7/create-pull-request-github
+Deep learning powered plant disease detection system using convolutional neural networks and computer vision to classify crop diseases from leaf images.
 
+---
 
-## ⭐Testing Images
+## Overview
 
-* If you do not have leaf images then you can use test images located in test_images folder
-* Each image has its corresponding disease name, so you can verify whether the model is working perfectly or not
+This project leverages CNNs built with PyTorch to detect and classify plant diseases across **39 categories** using the PlantVillage dataset.
 
-## ⭐Blog Link
-<a href="https://medium.com/analytics-vidhya/plant-disease-detection-using-convolutional-neural-networks-and-pytorch-87c00c54c88f" target = "_blank">Plant Disease Detection Using Convolutional Neural Networks with PyTorch</a><br>
+Designed to support smart agriculture and early disease diagnosis.
 
-## ⭐Deployed App
-<a href="https://plant-disease-detection-ai.herokuapp.com/" target = "_blank">Plant-Disease-Detection-AI</a><br>
+---
 
+## Features
 
-## ⭐Snippet of Web App :
-#### Main page
-<img src = "demo_images/1.png" > <br>
-#### AI Engine 
-<img src = "demo_images/2.png"> <br>
-#### Results Page 
-<img src = "demo_images/3.png"> <br>
-#### Supplements/Fertilizer  Store
-<img src = "demo_images/4.JPG"> <br>
-#### Contact Us 
-<img src = "demo_images/5.png"> <br><br>
+- Plant disease classification from leaf images  
+- Deep learning powered diagnosis  
+- 39 disease categories supported  
+- Flask-based prediction web application  
+- Supplement and fertilizer recommendations  
+- Interactive web interface with demo images
+
+---
+
+## Tech Stack
+
+- Python  
+- PyTorch  
+- Flask  
+- CNN  
+- Computer Vision  
+- PlantVillage Dataset
+
+---
+
+## Project Structure
+
+```bash
+.
+├── Flask Deployed App/
+├── Model/
+├── demo_images/
+├── test_images/
+└── README.md
+```
+
+---
+
+## Model Details
+
+- Convolutional Neural Network (CNN)
+- Trained using PlantVillage dataset
+- 39 disease classes
+- Image classification using PyTorch
+
+---
+
+## Run Project
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+---
+
+## Demo Preview
+
+Repository includes:
+- Disease detection UI
+- Prediction engine
+- Results page
+- Fertilizer recommendations
+
+(See demo images in repo)
+
+---
+
+## Use Cases
+
+- Smart agriculture
+- Disease diagnosis assistance
+- Farmer support systems
+- Precision farming applications
+
+---
+
+## Future Improvements
+
+- Mobile deployment  
+- Real-time camera detection  
+- Expanded crop support  
+- Explainable AI predictions
+
+---
+
+## Customization & Enhancements
+
+- Repository curation and documentation improvements  
+- Planned enhancements for agriculture AI workflows
+
+---
+
+## Credits
+
+Original project created by Manthan Patel.  
+Adapted, documented, and enhanced by Bhavana Kalloli.
