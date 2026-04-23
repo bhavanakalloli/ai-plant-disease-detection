@@ -107,7 +107,6 @@ Repository includes:
 
 ---
 
-## Credits
-
-Original project created by Manthan Patel.  
+## Credits  
+project created by Manthan Patel.
 Adapted, documented, and enhanced by Bhavana Kalloli.
